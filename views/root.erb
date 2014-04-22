@@ -1,0 +1,16 @@
+<% @superheroes.each do |superhero| %>
+  <div class="superhero_name" style="font-size:100px;">
+    <%= superhero.name %>
+  </div>
+  <div style="color:gray;">
+    <%= superhero.superpower1 %>
+    <%= superhero.superpower2 %>
+    <%= superhero.superpower3 %>
+  </div>
+  <!-- superhero[:id] -->
+  <!-- superhero.id -->
+  <a href="/edit_superhero/<%= superhero[:id] %>">Edit</a>
+  <hr>
+<% end %>
+
+<a href="/create_superhero">Create superhero</a>

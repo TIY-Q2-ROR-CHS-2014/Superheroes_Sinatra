@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'sinatra'
+gem 'mysql'
+gem 'data_mapper'
+gem 'shotgun'
+gem 'tux'
+gem 'dm-mysql-adapter'
